@@ -1,0 +1,43 @@
+*{
+    padding: 10px;
+    border-style: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+    align-items: center; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 600px;
+}
+
+input, select{
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 5px 5px gold;
+    height: 30px;
+}
+
+.login{
+    margin-top: 10px;
+    border: 2px solid purple;
+    background-color: cyan;
+    color: green;
+    border-radius: 5px;
+    box-shadow: 5px 5px peachpuff;
+}
+.create_user{
+    margin-top: 10px;
+    border: 2px solid chartreuse;
+    background-color: firebrick;
+    color: gold;
+    border-radius: 5px;
+    box-shadow: 5px 5px peachpuff;
+    justify-items: center;
+}
